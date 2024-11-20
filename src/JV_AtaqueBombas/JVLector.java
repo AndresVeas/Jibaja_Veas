@@ -1,4 +1,4 @@
-package JV_ValidarCredenciales;
+package JV_AtaqueBombas;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ public class JVLector {
     private String JVruta = " ";
 
     public void setJVruta(String jVruta) {
-        this.JVruta = "src\\JV_Otan\\JibajaVeas.txt";
+        this.JVruta = "src\\JV_AtaqueBombas\\JibajaVeas.txt";
     }
     public static Scanner jvsc = new Scanner(System.in);
     

@@ -1,7 +1,4 @@
-import JV_Otan.JVBarraCarga;
-import JV_ValidarCredenciales.JVLector;
-import JV_ValidarCredenciales.JVUsario;
-
+import JV_AtaqueBombas.*;
 public class BombasInteligentes {
     public static void main(String[] args) throws Exception {   
         
@@ -14,7 +11,10 @@ public class BombasInteligentes {
 
         JVBarraCarga jvb = new JVBarraCarga();
         JVLector jvLector = new JVLector();
-        jvb.setJVruta("src\\JV_Otan\\JibajaVeas.txt");
+        jvb.setJVruta("src\\JV_AtaqueBombas\\JibajaVeas.txt");
         jvb.jvimprimirBarraCarga(jvLector.JVLineasArchivo(jvb.getJVruta()));
+
+        JVGrafoAutomata grafo = new JVGrafoAutomata();
+        grafo.JVimprimirAtaque();
     }
 }

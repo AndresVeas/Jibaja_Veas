@@ -1,10 +1,11 @@
-package JV_ValidarCredenciales;
+package JV_AtaqueBombas;
+
 
 public class JVGrafoAutomata {
     private int e=-1;
     private int [] [] matrizTransicion= {
     //   a   b  c  d  t 
-        { e, 1, e, e, e, e},//q0
+        { 0, 1, e, e, e, e},//q0
         { e, 1, 2, e, e, e},//q1
         { e, e, e, 3, e, e},//q2
         { e, e, e, e, 4, e},//q3
@@ -18,6 +19,8 @@ public class JVGrafoAutomata {
     private boolean error=false;
     
     public void JVimprimirAtaque(){
+        System.out.println("Ingrese un ataque correspondiente a sus dos ultimos digitos de cedula");
+        datoIngresado = JVLector.jvsc.nextLine().trim();
         for (int i=0;i<datoIngresado.length();i++){
             columna=-1;
             for(int j=0;j<lenguaje.length;j++){
@@ -36,12 +39,12 @@ public class JVGrafoAutomata {
         System.out.println();
     }   
     
-    private 
+
     private void ImprimirResultados (){
         if (error) {
             System.out.println("\u001B[31mSolo puede ingresar los siguientes caracteres: a,b,c,d,t \u001B[0m");
-        } 
-        //Imprimir tabla
-        //19-20 9 - 10
+        } else if (estadoActual==1 || estadoActual==3 || estadoActual==5 ){
+            System.out.println("\u001B[32mHaz hecho el ataque: " + datoIngresado +"\u001B[0m");
+        } else System.out.println("\u001B[32mEse ataque no está definido para tus dos ultimos digitos de tu cedula\u001B[0m");
     }
 }

@@ -1,4 +1,4 @@
-package JV_ValidarCredenciales;
+package JV_AtaqueBombas;
 
 public class JVUsario {
     private String jvUsuario;

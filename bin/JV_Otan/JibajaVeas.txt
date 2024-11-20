@@ -1,0 +1,20 @@
+Coord-01; 01-02 ;       ;       ;       ;       ; a+
+Coord-07;       ;       ;       ; 03-06 ;       ; abcd*
+Coord-05;       ;       ;       ;       ; 05-10 ; anbcdt+
+Coord-04;       ;       ;       ; 04-08 ;       ; abcd*
+Coord-02;       ; 02-04 ;       ;       ;       ; ab*
+Coord-06;       ;       ;       ; 04-08 ;       ; abcdt+
+Coord-05;       ;       ;       ;       ; 05-10 ; abcdt+
+Coord-03;       ;       ; 03-06 ;       ;       ; abc
+Coord-08;       ; 02-04 ;       ;       ;       ; ab*
+Coord-05;       ;       ;       ;       ; 05-10 ; abcdt+
+Coord-01; 01-02 ;       ;       ;       ;       ; a+
+Coord-07;       ;       ;       ; 03-06 ;       ; abcd*
+Coord-05;       ;       ;       ;       ; 05-10 ; abcdt+
+Coord-00;       ;       ;       ;       ;       ;
+Coord-00;       ;       ;       ;       ;       ;
+Coord-09; 01-02 ;       ;       ;       ;       ; a+
+Coord-04;       ;       ;       ; 04-08 ;       ; abcd*
+Coord-01; 01-02 ;       ;       ;       ;       ; a+
+Coord-06;       ;       ;       ; 04-08 ;       ; abcdt+
+Coord-09;       ;       ;       ;       ;       
